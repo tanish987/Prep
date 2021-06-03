@@ -1,0 +1,24 @@
+Questions asked in interview given till now :-
+
+Amazon :-
+
+1. Sort 0,1,2 - https://leetcode.com/problems/sort-colors/
+2. Subarray with sum k with positive nos only - https://leetcode.com/problems/subarray-sum-equals-k/
+2. Max in subarrays of size k - https://leetcode.com/problems/sliding-window-maximum/
+
+
+Goldman Sachs :-
+
+1. Given a string encode it as follows (If any point you get a *, copy the prefix subarray):-
+    i. aa -> a*
+    ii. aaaaaa -> a*a*
+
+2. Find median of two sorted arrays - https://leetcode.com/problems/median-of-two-sorted-arrays/
+
+
+Microsoft :-
+
+1. One very simple stack related question, which I don't remember now.
+2. Number of unique binary search trees with n nodes - https://leetcode.com/problems/unique-binary-search-trees
+3. Diagonal slide traversal of binary tree - https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+4. Clone a Linked list with random pointer (with O(1) extra space) - https://leetcode.com/problems/copy-list-with-random-pointer/
