@@ -1,0 +1,62 @@
+1. Amazon :-
+    Intro was asked in all
+    * 1st round
+        a. Coding question - sort 012
+        b. Find subarray with given sum
+        c. What is the most challenging task you have done ?
+        d. Tell me about the time when you went out of your way to do a task ?
+    
+    * 2nd round
+        a. Coding question - find max in window of size W
+        b. Discussion on projects
+        c. 
+        d. What is the most technical task you have done ?
+    
+    * 3rd round (Managerial)
+        a. Discussion on projects
+        b. Most challenging task and how did you solved it.
+        c. HLD on live feed of cricket score / video
+
+
+2. AiDash :-
+    * 1st round (Intro round)
+        a. Intro
+        b. Discussion on projects
+        c. Most challenging task you have done till now ?
+        d. Tell me about your tech stack
+        e. why do you want to leave your present company ?
+
+3. Goldman Sachs
+    * Phone round
+        a. Intro
+        b. Why Goldman?
+        c. See coding experience for coding question
+
+        => rejected after 1st round
+
+4. Microsoft 
+    * 1st round
+        a. Intro
+        b. One very simple stack related question, which I don't remember now.
+            - Solved with satisfactory solution.
+        c. Number of unique binary search trees with n nodes - https://leetcode.com/problems/unique-binary-search-trees
+            - Using some hints was able to code up optimized dp solution
+    
+    * 2nd round
+        a. Intro
+        b. Diagonal slide traversal of binary tree - https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+            - Came up with a good solution. Was not asked to code
+    
+    * 3rd round
+        a. Intro
+        b. Clone a linked list with random pointer
+            - Give hashmap based solution and also did proper coding in 30 minutes.
+            - Was then asked to make some optimized solution without hashmap => Not able to give this solution.
+
+
+5. Beyond Payments 
+    * 1st round
+        a. Intro
+        b. Why do you want to join ?
+        c. Cheryl's Birthday problem (https://www.geeksforgeeks.org/cheryls-birthday-puzzle-and-solution/)
+        d. Celebrity problem (https://www.geeksforgeeks.org/the-celebrity-problem/)
