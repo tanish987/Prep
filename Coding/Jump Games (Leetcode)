@@ -1,0 +1,137 @@
+1. Jump Game (LeetCode problem - 55)
+
+Algorithm :-
+
+1. iterate in the window of current max seen.
+2. While doing iteration, if we reach end of the array => possible else not.
+
+
+Solution :-
+
+public boolean canJump(int[] nums) {
+    int max = 0, len = nums.length;
+    int i = 0;
+    for(i=0;i <= Math.min(max,len-1);i++) {
+        if(nums[i] + i > max) {
+            max = nums[i] + i;
+        }
+    }
+    if(i == len) {
+        return true;
+    }
+    return false;
+}
+
+
+2. Jump Game 2 (Leetcode - 45)
+
+Algorithm :-
+
+1. Greedy solution - from current position say i, if we want to go to the farthest, 
+we should always land on a position which reaches to max distance in current window of subarray.
+see solution at - https://leetcode.com/problems/jump-game-ii/solution/ 
+
+
+
+Solution :-
+
+public int jump(int[] nums) {
+        int jumps = 0, currentJumpEnd = 0, farthest = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            // we continuously find the how far we can reach in the current jump
+            farthest = Math.max(farthest, i + nums[i]);
+            // if we have come to the end of the current jump,
+            // we need to make another jump
+            if (i == currentJumpEnd) {
+                jumps++;
+                currentJumpEnd = farthest;
+            }
+        }
+        return jumps;
+    }   
+
+
+3. Jump Game 3 (leetcode - 1306)
+
+Algorithm :-
+
+1. Use BFS or DFS, I will use Bfs
+2. Insert start position in the queue and mark it as visited.
+3. In a while loop pop queue item, get it's neighbours, if they are non visited, the mark them as visited and push in the queue.
+4. if you reach a position with value 0, return true else if queue is empty, return false
+
+
+Solution :-
+
+public boolean canReach(int[] arr, int start) {
+        Queue<Integer> que = new LinkedList();
+        boolean visited[] = new boolean[arr.length];
+        que.offer(start);
+        visited[start] = true;
+        while(que.size() > 0) {
+            int pos = que.poll();
+            if(arr[pos] == 0) {
+                return true;
+            }
+            int p1 = pos - arr[pos];
+            if(p1 >= 0 && !visited[p1]) {
+                visited[p1] = true;
+                que.offer(p1);
+            }
+            int p2 = pos + arr[pos];
+            if(p2 < arr.length && !visited[p2]) {
+                visited[p2] = true;
+                que.offer(p2);
+            }
+        }
+        return false;
+    }
+
+4. Jump Game 4 (leetcode - 1345)
+
+Algorithm :-
+
+1. Use Bfs
+2. Code is almost self explanatory.
+
+
+Solution :-
+
+public int minJumps(int[] arr) {
+        HashMap<Integer,List<Integer>> hm = new HashMap();
+        for(int i=0;i< arr.length;i++) {
+            if(!hm.containsKey(arr[i])) {
+                hm.put(arr[i],new ArrayList());
+            }
+            hm.get(arr[i]).add(i);
+        }
+        boolean visited[] = new boolean[arr.length];
+        Queue<Integer> que = new LinkedList();
+        que.offer(0);
+        visited[0] = true;
+        int jumps = 0;
+        while(que.size() > 0) {
+            int len = que.size();
+            for(int i=0;i<len;i++) {
+                int pos = que.poll();
+                if(pos == arr.length-1) {
+                    return jumps;
+                }
+                List<Integer> l = hm.get(arr[pos]);
+                l.add(pos-1);
+                l.add(pos+1);
+                for(int n : l) {
+                    if(n >= 0 && n < arr.length && !visited[n]) {
+                        visited[n] = true;
+                        que.offer(n);
+                    }
+                }
+                l.clear(); // This is very important => decreases time complexity of the solution.
+            }
+            jumps++;
+        }
+        return jumps;
+    }
+
+
+
