@@ -1,0 +1,13 @@
+Following are the various components in a high level system design :-
+
+1. Load Balancer
+2. Proxy
+3. Reverse Proxy
+4. Cache
+5. Content Delivery network
+6. Application Servers
+7. Web Servers
+8. Messaging Queues
+9. Asynchronous workers
+10. Connections
+11. Database
