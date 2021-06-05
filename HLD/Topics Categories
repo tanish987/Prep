@@ -1,0 +1,120 @@
+Hld Design problems can be categorized into mutliple categories according to similarities in their solutions as follows :-
+
+1. Spatial Data :-
+    
+    Main Topic To learn  - Quad Trees
+
+    - Uber
+    - Yelp Nearby places
+    - Google Maps
+    - Facebook Nearby friends
+
+
+2. Search & Indexing
+
+    Main Topic to learn - Distributed Trie, Depth First Search, Inverted Indexing
+
+    - Log Search
+    - Facebook Translator Service
+    - AutoComplete
+    - Clone a Domain
+    - Facebook Search
+    - Web Crawler
+
+3. Event Processing & Time Series
+
+    Main Topics to learn - Priority Queues, Kafka, Distributed Queues
+
+    - Metric counter & Histogram Service
+    - Trending topics (top - k)
+    - Stock Trading System
+    - Recommendation System
+    - Amazon Sales Ranking
+    - Time Series DB
+
+4. Social - Feeds & Fanouts
+
+    Main Topic to learn - Mananging Fanouts using push or pull based mechanism
+
+    - Twitter
+    - Instagram auction
+    - Facebook NewsFeed
+    - LinkedIn
+    - Social Gaming
+    - Instagram
+
+
+5. Video Upload & Streaming
+
+    Main Topics to learn - video Streaming using https
+
+    - Netflix
+    - Youtube
+    - Facebook Video
+    - Facebook live
+
+
+6. Distributed Data Structure
+
+    - Distributed hash table
+    - CRDT
+    - Distributed Cache
+
+7. Distributed Storage :-
+
+    - Dropbox
+    - Azure blob Storage
+
+8. Messaging :-
+
+    Main Topics to learn - How are persistant connections are maintained?
+
+    - Facebook Messenger
+    - Slack
+    - Whatsapp
+
+
+9. Everything else :-
+
+    - Url Shortening Service
+    - UUID Service
+    - Google Calendar
+    - Pastebin
+    - Rate Limiter
+    - Mint.com
+
+10. Concurrent Purchase :-
+
+    Main topics to learn - db concurrency (locking)
+
+    - Amazon 
+    - Ticketmaster (BookMyShow)
+    - Facebook Pay
+
+11. Build & CI :-
+    - Coding copetition website
+    - Code build and deplyment System
+
+12. Low level Design :-
+    - Chat Server
+
+13. Api Design :-
+    - Facebook privacy Api
+    - Reddit Api
+
+14. Collaborative Editing :-
+
+    Main Topics to learn - Operational transform
+
+    - Google Docs
+
+
+15. Marketplace / medium :-
+
+    - Facebook Marketplace
+    - AirBnB
+    - Blog / CMS
+    - Glassdoor
+    - Product Review System
+
+
