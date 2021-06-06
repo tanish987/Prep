@@ -1,0 +1,38 @@
+Design Patterns can be broadly classified into following 3 categories :-
+
+1. Creational
+    - Builder Pattern 
+    - Prototype Pattern
+    - Singleton Pattern
+    - Abstract Factory Pattern
+
+2. Structural
+    - Adapter Pattern
+    - Bridge Pattern
+    - Composite Pattern
+    - Decorator Pattern
+    - Facade Pattern
+    - Flyweight Pattern
+    - Proxy Pattern
+
+3. Behavourial
+    - Interpreter Pattern
+    - Template Pattern
+    - Chain of Responsibility Pattern
+    - Command Pattern
+    - Iterator Pattern
+    - Mediator Pattern
+    - Memento Pattern
+    - Observer Pattern
+    - State Pattern
+    - Strategy Pattern
+    - Visitor Pattern
+
+
+Important Design Patterns for interviews :-
+- Creational
+- decorator
+- proxy
+- iterator
+- observer
+- visitor 
